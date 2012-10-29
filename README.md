@@ -30,11 +30,11 @@ To use it with Rack Builder
 
 If you want to allow only "POST" methods to be overridable (as the original Rack::MethodOverride gem), you could:
 
-   use Rack::MethodOverride4All, [:post]
+    use Rack::MethodOverride4All, [:post]
 
 If you plan to use it to operate an API through the browser, you could:
 
-   use Rack::MethodOverride4All, [:get, :post] # Also, this is default
+    use Rack::MethodOverride4All, [:get, :post] # Also, this is default
 
 Contrib
 ---------------
