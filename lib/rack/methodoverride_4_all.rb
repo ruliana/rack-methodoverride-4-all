@@ -1,5 +1,3 @@
-require 'rack/request'
-
 module Rack
   class MethodOverride4All
     HTTP_METHODS                = %w(GET HEAD PUT POST DELETE OPTIONS)

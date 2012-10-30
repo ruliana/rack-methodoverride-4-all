@@ -1,6 +1,4 @@
 # encoding: utf-8
-require File.expand_path('../lib/rack_methodoverride_4_all', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = ['Ronie Uliana']
   gem.email         = ['ronie.uliana@gmail.com']
@@ -13,7 +11,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "rack-methodoverride-4-all"
   gem.require_paths = ['lib']
-  gem.version       = '1.0.1'
+  gem.version       = '1.0.3'
+
+  gem.add_dependency 'rack', '~>1.4.1'
 
   gem.add_development_dependency 'rack-test', '~>0.6.0'
   gem.add_development_dependency 'rspec', '~>2.11.0'
